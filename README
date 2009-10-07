@@ -1,0 +1,34 @@
+###############################################
+nestedurls Module
+###############################################
+
+Contact
+-----------------------------------------------
+James Muir
+james.p.muir@gmail.com
+http://jamespaulmuir.com/
+
+Requirements
+-----------------------------------------------
+SilverStripe 2.3
+
+Documentation
+-----------------------------------------------
+
+
+Installation Instructions
+-----------------------------------------------
+To install the module, download the module's tar file, extract to your project root folder, sibling to cms and sapphire.
+
+Usage Overview
+-----------------------------------------------
+URL Parent dropdown field is added to the Behavior tab, you can change this for a page and it and all of its children will
+have a URLunderneath the URL Parent
+
+Known issues
+-----------------------------------------------
+1.  Will most likely conflict if installed on nestedurls branch
+2.  URLSegment check (for duplicate) is still the default
+3.  URLSegment field on Metadata tab is still the default (doesn't show current nested url prefix)
+4.  Only known to work with SiteTree and its subclasses
+5.  Only tested with base install of SilverStripe 2.3.3 w/googlesitemaps module
